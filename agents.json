@@ -1,0 +1,62 @@
+[
+  {
+    "agent_name": "department_agent",
+    "description": "Specialized agent responsible for managing department-related operations within the organization, including retrieving department information, creating new departments, updating department attributes, and removing existing departments. Operations that can modify or remove department data require human approval before execution.",
+    "skill_set": [
+      "Department management",
+      "Department creation",
+      "Department retrieval",
+      "Department information updates",
+      "Department deletion",
+      "Department strength management"
+    ],
+    "endpoint": "http://localhost:8011/department",
+    "tools": [
+      "get_departments",
+      "onboard_department",
+      "dismiss_department",
+      "update_department"
+    ]
+  },
+  {
+    "agent_name": "employee_agent",
+    "description": "Specialized agent responsible for managing employee lifecycle and employee-related operations, including retrieving employee information, onboarding new employees, deboarding existing employees, and updating employee details. Operations that modify or remove employee data require human approval before execution.",
+    "skill_set": [
+      "Employee management",
+      "Employee information retrieval",
+      "Employee onboarding",
+      "Employee deboarding",
+      "Employee profile management",
+      "Employee detail updates"
+    ],
+    "endpoint": "http://localhost:8011/employee",
+    "tools": [
+      "get_employees",
+      "onboard_new_employee",
+      "deboard_employee",
+      "validate_employee_details",
+      "update_employee"
+    ]
+  },
+  {
+    "agent_name": "notification_agent",
+    "description": "Specialized agent responsible for managing organizational notifications between employees and departments. It can send notifications from one employee to another employee, from one department to another department, or between employees and departments by using the sender's and receiver's email addresses. It also supports scheduling notifications for delivery at a specified date and time.",
+    "skill_set": [
+      "Notification management",
+      "Sending notifications",
+      "Scheduling notifications",
+      "Employee-to-employee notifications",
+      "Department-to-department notifications",
+      "Employee-to-department notifications",
+      "Department-to-employee notifications",
+      "Email-based recipient identification"
+    ],
+    "endpoint": "http://localhost:8011/notification",
+    "tools": [
+      "send_notification",
+      "broadcast_notification",
+      "schedule_notification",
+      "schedule_meeting"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+python_dotenv
+fastapi[standard]
+sentence-transformers
+numpy
+uvicorn
+openai_agents
+torch
+mcp[cli]<2
+sqlalchemy
+requests
+a2a-sdk[fastapi]
+rank_bm25

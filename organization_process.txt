@@ -1,0 +1,203 @@
+Process 1: Employee Onboarding
+Purpose: Onboard a new employee and coordinate HR, IT, and the Assignee Team activities.
+Steps:
+1. Onboard the employee
+    * Create the new employee record in the system.
+    * Capture required details such as:
+        * Employee name
+        * Employee email
+        * Phone number
+        * Department
+        * Designation
+        * Joining date
+        * Physical address
+        * Assignee/team
+2. Validate employee information
+    * Validate whether all mandatory employee details are available.
+    * If any required information is missing:
+        * Send a notification to the employee’s email address.
+        * Use followup@myorgemail.com as the sender.
+        * Request the missing information.
+    * Continue the onboarding process once the required information is available.
+3. Notify HR
+    * Send employee details to the HR department.
+    * Recipient: hr@myorgemail.com
+    * Include all relevant employee information required for HR processing.
+4. Notify IT Support
+    * Send employee details to IT Support.
+    * Recipient: itsupport@myorgemail.com
+    * Request assignment of:
+        * Laptop
+        * Monitor, if applicable
+        * Keyboard/mouse
+        * Other required accessories
+    * Provide the employee’s physical address for delivery.
+5. Coordinate Knowledge Transfer
+    * Send a notification to the Assignee Team.
+    * Ask the team to provide the date and time when they can start the employee’s KT (Knowledge Transfer).
+6. Schedule KT Meeting
+    * Once the Assignee Team provides the availability:
+        * Schedule the KT meeting.
+        * Add the newly onboarded employee and relevant team members.
+        * Use Microsoft Teams as the meeting platform.
+    * Send the meeting details to all participants.
+
+---
+
+Process 2: Employee Deboarding
+Purpose: Safely remove an employee from the organization while coordinating HR, IT, and department responsibilities.
+Steps:
+1. Initiate employee deboarding
+    * Identify the employee to be deboarded.
+    * Retrieve the employee’s details from the system.
+2. Human approval
+    * Obtain human approval before proceeding with the deboarding operation.
+3. Notify HR
+    * Send employee deboarding details to HR.
+    * Include:
+        * Employee name
+        * Employee email
+        * Department
+        * Last working date
+        * Assignee/team
+4. Notify IT Support
+    * Notify IT Support about the employee’s deboarding.
+    * Request:
+        * Account/access deactivation
+        * Laptop recovery
+        * Accessory recovery
+        * Organization asset collection
+5. Notify the Assignee Team
+    * Inform the employee’s current team about the deboarding.
+    * Request any required KT or knowledge transfer to another team member.
+6. Complete employee deboarding
+    * After required approvals and coordination are completed:
+        * Mark the employee as deboarded.
+        * Update the employee’s status in the system.
+
+---
+
+Process 3: Department Onboarding
+Purpose: Create and establish a new department within the organization.
+Steps:
+1. Collect department information
+    * Obtain:
+        * Department name
+        * Department description
+        * Department head/manager
+        * Initial department strength
+        * Required employees or roles
+2. Create the department
+    * Insert the new department into the organization system.
+3. Validate department information
+    * Verify that all mandatory department information has been provided.
+    * If information is missing, request the required details from the requester.
+4. Notify HR
+    * Send the new department details to HR.
+    * Include the department name, manager, purpose, and expected strength.
+5. Notify relevant teams
+    * Notify IT and other relevant organizational teams about the new department.
+    * Request any infrastructure, access, or resource requirements.
+6. Associate employees
+    * Assign existing or newly onboarded employees to the new department as required.
+7. Complete department setup
+    * Verify that the department and its employees are correctly configured in the system.
+
+---
+
+Process 4: Department Dismantling
+Purpose: Safely dismantle an existing department and handle its associated employees and resources.
+Steps:
+1. Identify the department
+    * Retrieve the department details.
+    * Retrieve all employees currently associated with the department.
+2. Analyze employee impact
+    * Determine where the employees will be moved.
+    * Identify employees who are leaving the organization, if applicable.
+3. Human approval
+    * Obtain human approval before dismantling the department.
+4. Notify HR
+    * Send the department dismantling details to HR.
+    * Include:
+        * Department name
+        * Department head
+        * Current employee list
+        * Proposed employee movements
+5. Notify employees
+    * Notify affected employees about the department restructuring.
+    * Provide information about their new department or next assignment.
+6. Move employees
+    * Shift employees to their respective new departments.
+7. Handle department resources
+    * Notify IT and relevant teams about resources associated with the department.
+    * Reassign or decommission department-specific resources as required.
+8. Dismantle the department
+    * Once all employees and dependencies have been handled:
+        * Remove/deactivate the department from the system.
+
+---
+
+Process 5: Employee Department Transfer
+Purpose: Shift an existing employee from one department to another while maintaining organizational consistency.
+Steps:
+1. Identify employee
+    * Retrieve the employee’s details using their employee ID or email address.
+2. Validate current department
+    * Verify the employee’s current department.
+3. Identify target department
+    * Verify that the destination department exists.
+    * Validate that the transfer is allowed.
+4. Human approval
+    * Obtain human approval before changing the employee’s department.
+5. Update employee department
+    * Update the employee record with the new department.
+6. Notify HR
+    * Send the transfer details to HR.
+    * Include:
+        * Employee name
+        * Employee email
+        * Previous department
+        * New department
+        * Effective date
+7. Notify old department
+    * Notify the employee’s previous department about the transfer.
+8. Notify new department
+    * Notify the destination department.
+    * Provide the employee’s relevant details.
+9. Coordinate KT
+    * Ask the previous department/team whether KT is required.
+    * If required, obtain the KT date and time.
+10. Schedule KT
+    * Schedule a Microsoft Teams meeting between the employee and relevant team members.
+    * Send the meeting details to all participants.
+11. Complete transfer
+    * Verify that the employee is now associated with the target department.
+    * Confirm that all relevant notifications and KT activities have been completed.
+
+---
+
+Process 6: Employee Detail Update
+Purpose: Update existing employee information while ensuring the relevant stakeholders are informed.
+Steps:
+1. Identify the employee.
+2. Retrieve the current employee details.
+3. Identify the information that needs to be changed.
+4. Obtain human approval before modifying employee details.
+5. Update the employee record.
+6. Notify HR about the updated employee information.
+7. Notify other relevant teams if the change affects their responsibilities.
+8. Verify that the updated information is correctly stored.
+
+---
+
+Process 7: Department Detail Update
+Purpose: Update department information such as department name, department strength, or department manager.
+Steps:
+1. Identify the department.
+2. Retrieve the existing department information.
+3. Identify the fields that need to be changed.
+4. Obtain human approval before modifying department information.
+5. Update the department record.
+6. Notify HR about the change.
+7. Notify affected employees or teams if required.
+8. Verify that the department information has been successfully updated.
